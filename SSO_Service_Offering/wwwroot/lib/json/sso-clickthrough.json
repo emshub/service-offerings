@@ -1,0 +1,745 @@
+{
+  "title": "Single Sign-On",
+  "description": "Enterprise quality, Single Sign-On is provided by Microsoft's Azure Active Directory and provides a business with identity and access management to virtually any cloud-based app, proprietary app, or system. It delivers simplified user authentication by allowing users to sign in once, connect to many experiences, and self-service their passwords. This presentation will discuss the common scenarios a user and business will solve with Single Sign-On.",
+  "videoUrl": "https://mscspemsclientuats1.blob.core.windows.net/sitestorage/Videos/EMS_SCENARIO_01_SSO.mp4",
+  "scenarios": [
+    {
+      "id": "1",
+      "title": "I only have to keep track of one login!",
+      "shortTitle": "Credential Management",
+      "description": "",
+      "image": "/lib/img/clickthrough/SSO/sso_intro_scenario_1_176x130.png#",
+      "menuIcon": "pencil",
+      "page": {
+        "illustrations": [
+          {
+            "id": "1",
+            "location": "top",
+            "header": "I can't remember all of my logins!",
+            "images": [
+              {
+                "htmlId": "scenario1_image1",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 1 - plane.svg#",
+                "initialPosition": "sso-scenario1__airplane",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image2",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 1 - bg - problem.svg#",
+                "initialPosition": "sso-scenario1__problem",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image3",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 1 - post its.svg#",
+                "initialPosition": "sso-scenario1__post-it",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image4",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 1 - cloud items.svg#",
+                "initialPosition": "sso-scenario1__password-icons",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image5",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 1 - thief.svg#",
+                "initialPosition": "sso-scenario1__hacker-image",
+                "imageResponsive": ""
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "location": "bottom",
+            "header": "I only have to keep track of one login!",
+            "images": [
+              {
+                "htmlId": "scenario1_image6",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 1 - bg - solution.svg#",
+                "initialPosition": "sso-scenario1__solution",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image7",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 1 - guy.svg#",
+                "initialPosition": "sso-scenario1__guy",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image8",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 1 - master key.svg#",
+                "initialPosition": "sso-scenario1__master-key",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image9",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 1 - monitors.svg#",
+                "initialPosition": "sso-scenario1__monitors",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image10",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 1 - plane.svg#",
+                "initialPosition": "sso-scenario1__airplane2",
+                "imageResponsive": ""
+              }
+            ]
+          }
+        ],
+        "tooltips": [
+          {
+            "htmlId": "scenario1_tooltip1",
+            "personStatement": "When I'm working at home, I can't remember my passwords since they're all on sticky notes on my desk at work.",
+            "businessStatement": "Productivity is lost if employees are out office and can't access the passwords they have written down at work.",
+            "initialPosition": "sso-scenario1__tooltip1 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem_start"
+          },
+          {
+            "htmlId": "scenario1_tooltip2",
+            "personStatement": "I have many different credentials for the apps I use like email, Salesforce, Trello, etc.",
+            "businessStatement": "Having too many different credentials could lead employees to use the same password everywhere.",
+            "initialPosition": "sso-scenario1__tooltip2 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario1_tooltip3",
+            "personStatement": "I deal with this by having a notepad file or post-it notes all over my desk with my passwords.",
+            "businessStatement": "Post-it notes and text files of credentials can lead to the wrong person gaining access to someone's accounts.",
+            "initialPosition": "sso-scenario1__tooltip3 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario1_tooltip4",
+            "businessStatement": "The two above vulnerabilities make all data less secure, and could lead to hacking, data leaks, or violations of the company's privacy policies.",
+            "initialPosition": "sso-scenario1__tooltip4 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario1_tooltip5",
+            "businessStatement": "I have a single set of credentials which I can remember, so I don't need to store it in insecure ways.",
+            "initialPosition": "sso-scenario1__tooltip5 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "solution_start"
+          },
+          {
+            "htmlId": "scenario1_tooltip6",
+            "businessStatement": "I can be productive from anywhere since I don't need those post-its on my desk to log in.",
+            "initialPosition": "sso-scenario1__tooltip6 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario1_tooltip7",
+            "businessStatement": "There is a lower risk of hacking, data leaks, and privacy violations since employee credentials are stored more securely.",
+            "initialPosition": "sso-scenario1__tooltip7 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "title": "I can get back into my account on my own!",
+      "shortTitle": "Password Self-Management",
+      "description": "",
+      "image": "/lib/img/clickthrough/SSO/sso_intro_scenario_2_176x130.png#",
+      "menuIcon": "lock",
+      "page": {
+        "illustrations": [
+          {
+            "id": "1",
+            "location": "top",
+            "header": "I got locked out of my account!",
+            "images": [
+              {
+                "htmlId": "scenario2_image1",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 2 - bg - problem.svg#",
+                "initialPosition": "sso-scenario2__problem",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image2",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 2 - desk guy.svg#",
+                "initialPosition": "sso-scenario2__desk-guy",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image3",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 2 - exclaimation.svg#",
+                "initialPosition": "sso-scenario2__exclaimation",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image4",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 2 - monitor.svg#",
+                "initialPosition": "sso-scenario2__monitor",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image5",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 2 - nightmare items.svg#",
+                "initialPosition": "sso-scenario2__nightmare-items",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image6",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 2 - mobile.svg#",
+                "initialPosition": "sso-scenario2__mobile",
+                "imageResponsive": ""
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "location": "bottom",
+            "header": "I can get back into my account on my own!",
+            "images": [
+              {
+                "htmlId": "scenario2_image7",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 2 - bg - solution.svg#",
+                "initialPosition": "sso-scenario2__solution",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image8",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 2 - monitor key.svg#",
+                "initialPosition": "sso-scenario2__monitor-key",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image9",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 2 - happy  desk guy.svg#",
+                "initialPosition": "sso-scenario2__desk-guy-solution",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image10",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 2 - super IT.svg#",
+                "initialPosition": "sso-scenario2__superit",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image11",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 2 - xbox.svg#",
+                "initialPosition": "sso-scenario2__xbox",
+                "imageResponsive": ""
+              }
+            ]
+          }
+        ],
+        "tooltips": [
+          {
+            "htmlId": "scenario2_tooltip1",
+            "personStatement": "I locked myself out, and now have to spend time calling IT.",
+            "businessStatement": "Every time a user gets locked out, IT has to take the time to work out which app is the problem, and to reset the password.",
+            "initialPosition": "sso-scenario2__tooltip1 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "problem_start"
+          },
+          {
+            "htmlId": "scenario2_tooltip2",
+            "personStatement": "I lose time and work when I lock myself out of a system.",
+            "businessStatement": "If it's an emergency, IT has to drop what they're doing to handle this, disrupting their flow of work and efficiency.",
+            "initialPosition": "sso-scenario2__tooltip2 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario2_tooltip3",
+            "personStatement": "If the app is not managed by IT, I'm at a loss of how to regain access.",
+            "businessStatement": "Password policies that aren't owned by IT can be insecure.",
+            "initialPosition": "sso-scenario2__tooltip3 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario2_tooltip4",
+            "businessStatement": "If IT is offline outside of business hours, I'm completely blocked.",
+            "initialPosition": "sso-scenario2__tooltip4 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario2_tooltip5",
+            "businessStatement": "IT has to manage lots of LOB apps with different password policies.",
+            "initialPosition": "sso-scenario2__tooltip5 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario2_tooltip6",
+            "businessStatement": "My productivity isn't restricted by when IT can get around to helping me.",
+            "initialPosition": "sso-scenario2__tooltip6 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "solution_start"
+          },
+          {
+            "htmlId": "scenario2_tooltip7",
+            "businessStatement": "If I'm on a time-crunch, I'm not panicking for someone in IT to help me quickly.",
+            "initialPosition": "sso-scenario2__tooltip7 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario2_tooltip8",
+            "businessStatement": "IT is more efficient without wasting time on this common problem.",
+            "initialPosition": "sso-scenario2__tooltip8 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario2_tooltip9",
+            "businessStatement": "IT can set a global password reset policy for all business users.",
+            "initialPosition": "sso-scenario2__tooltip9 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "solution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "title": "I can easily access my apps!",
+      "shortTitle": "App Permission Management",
+      "description": "",
+      "image": "/lib/img/clickthrough/SSO/sso_intro_scenario_3_176x130.png#",
+      "menuIcon": "share-alt",
+      "page": {
+        "illustrations": [
+          {
+            "id": "1",
+            "location": "top",
+            "header": "I wish I could easily access all the apps I need to do my job!",
+            "images": [
+              {
+                "htmlId": "scenario3_image1",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - bg - problem.svg#",
+                "initialPosition": "sso-scenario3__problem",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image2",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - big cloud items.svg#",
+                "initialPosition": "sso-scenario3__big-cloud-items"
+              },
+              {
+                "htmlId": "scenario3_image3",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - monitor.svg#",
+                "initialPosition": "sso-scenario3__monitor",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image4",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - little cloud items.svg#",
+                "initialPosition": "sso-scenario3__little-cloud-items",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image5",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - mobile.svg#",
+                "initialPosition": "sso-scenario3__mobile",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image6",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - desk guy.svg#",
+                "initialPosition": "sso-scenario3__desk-guy",
+                "imageResponsive": ""
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "location": "bottom",
+            "header": "I can easily access my apps!",
+            "images": [
+              {
+                "htmlId": "scenario3_image7",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - bg - solution.svg#",
+                "initialPosition": "sso-scenario3__solution",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image8",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - happy desk guy.svg#",
+                "initialPosition": "sso-scenario3__happy-desk-guy",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image9",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - mobile key.svg#",
+                "initialPosition": "sso-scenario3__mobile-key",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image10",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - monitor key.svg#",
+                "initialPosition": "sso-scenario3__monitor-key",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image11",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - resolved big cloud items.svg#",
+                "initialPosition": "sso-scenario3__resolved-big-cloud-items",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image12",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 3 - resolved small cloud items.svg#",
+                "initialPosition": "sso-scenario3__resolved-little-cloud-items",
+                "imageResponsive": ""
+              }
+            ]
+          }
+        ],
+        "tooltips": [
+          {
+            "htmlId": "scenario3_tooltip1",
+            "personStatement": "I have to request access to a number of different apps I need for my job.",
+            "businessStatement": "IT has to manage access to many different of apps with no single place to manage who has access to what.",
+            "initialPosition": "sso-scenario3__tooltip1 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem_start"
+          },
+          {
+            "htmlId": "scenario3_tooltip2",
+            "personStatement": "As a new employee, I had to create accounts on all sites that the business uses regularly.",
+            "businessStatement": "IT has to set permissions at an individual level rather than a group-level.",
+            "initialPosition": "sso-scenario3__tooltip2 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario3_tooltip3",
+            "personStatement": "There's no easy way for me to see all the apps available to me.",
+            "businessStatement": "Money is wasted on providing all apps to all employees, regardless of whether they actually need them all.",
+            "initialPosition": "sso-scenario3__tooltip3 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario3_tooltip4",
+            "businessStatement": "Onboarding new apps and giving appropriate permissions to users is difficult because tools don't have a consistent way of managing users.",
+            "initialPosition": "sso-scenario3__tooltip4 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario3_tooltip5",
+            "personStatement": "I need to access corporate accounts like Facebook and Twitter but it's hard because they use shared credentials.",
+            "businessStatement": "Business social accounts (i.e. Facebook, Twitter) are tied to an individual and they have to share the password.",
+            "initialPosition": "sso-scenario3__tooltip5 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario3_tooltip6",
+            "businessStatement": "I can see a central dashboard for all apps within my company.",
+            "initialPosition": "sso-scenario3__tooltip6 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "solution_start"
+          },
+          {
+            "htmlId": "scenario3_tooltip7",
+            "businessStatement": "The framework to integrate systems outside the existing 2500+ apps exists, and can be built internally or by a systems integrator.",
+            "initialPosition": "sso-scenario3__tooltip7 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario3_tooltip8",
+            "businessStatement": "I can add and remove access for groups of people rather than individuals and save money by only giving apps to the people who need them.",
+            "initialPosition": "sso-scenario3__tooltip8 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario3_tooltip9",
+            "businessStatement": "Out of the 2500+ cloud apps that available, it's easy for me to onboard apps that our business needs and grant access to people that need them.",
+            "initialPosition": "sso-scenario3__tooltip9 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario3_tooltip10",
+            "businessStatement": "Social media is now a business-level rather than an individually-owned with shared credential. Now employees don't need to share credentials.",
+            "initialPosition": "sso-scenario3__tooltip10 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "solution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "title": "I can manage access quickly when employees start and leave!",
+      "shortTitle": "On/Off-boarding Employees",
+      "description": "",
+      "image": "/lib/img/clickthrough/SSO/sso_intro_scenario_4_176x130.png#",
+      "menuIcon": "user",
+      "page": {
+        "illustrations": [
+          {
+            "id": "1",
+            "location": "top",
+            "header": "I have to set up many accounts for this new employee, and cut their access when they leave!",
+            "images": [
+              {
+                "htmlId": "scenario4_image1",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - bg - problem.svg#",
+                "initialPosition": "sso-scenario4__problem",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image2",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - big cloud.svg#",
+                "initialPosition": "sso-scenario4__big-cloud",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image2",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - app rain.svg#",
+                "initialPosition": "sso-scenario4__app-rain",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image3",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - runner.svg#",
+                "initialPosition": "sso-scenario4__runner",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image4",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - small cloud items.svg#",
+                "initialPosition": "sso-scenario4__small-cloud-items",
+                "imageResponsive": ""
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "location": "bottom",
+            "header": "I can manage access quickly when employees start and leave!",
+            "images": [
+              {
+                "htmlId": "scenario4_image5",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - bg - solution.svg#",
+                "initialPosition": "sso-scenario4__solution",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image6",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - IT guy.svg#",
+                "initialPosition": "sso-scenario4__it-guy",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image7",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - master key.svg#",
+                "initialPosition": "sso-scenario4__master-key",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image8",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - resolved small cloud items.svg#",
+                "initialPosition": "sso-scenario4__resolved-small-cloud-items",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image9",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - small cloud.svg#",
+                "initialPosition": "sso-scenario4__small-cloud",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image10",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - sun center.svg#",
+                "initialPosition": "sso-scenario4__sun-center",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image11",
+                "source": "../lib/img/clickthrough/SSO/SSO_illustrations_pieces_sso - 4  - key rays.svg#",
+                "initialPosition": "sso-scenario4__key-rays",
+                "imageResponsive": ""
+              }
+            ]
+          }
+        ],
+        "tooltips": [
+          {
+            "htmlId": "scenario4_tooltip1",
+            "personStatement": "New employee has to create accounts on all sites that the business uses regularly and request credentials for new accounts that are created.",
+            "businessStatement": "The business can't manage employee credentials for personally managed accounts.",
+            "initialPosition": "sso-scenario4__tooltip1 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem_start"
+          },
+          {
+            "htmlId": "scenario4_tooltip2",
+            "personStatement": "As a manager, there's no easy way for me to add a new team member to all the apps we use.",
+            "businessStatement": "IT has to spend time to create new accounts and passwords, and have to maintain large lists of inactive past employees in each app.",
+            "initialPosition": "sso-scenario4__tooltip2 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario4_tooltip3",
+            "personStatement": "As a manager, I have to remove the same employee from a number of different systems when they leave.",
+            "businessStatement": "If an employee leaves, they maintain access to all their personally-managed accounts connected to corporate resources (i.e. MSDN, SalesForce). Previous employees that still have credentials are a critical security vulnerability.",
+            "initialPosition": "sso-scenario4__tooltip3 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario4_tooltip4",
+            "personStatement": "As a manager, when an employee leaves I'm not sure which apps they still have access to, since some systems are not controlled by IT.",
+            "businessStatement": "If an employee leaves, there's no exact way of knowing every app they retain access to.",
+            "initialPosition": "sso-scenario4__tooltip4 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario4_tooltip5",
+            "businessStatement": "SSO credentials can be used across 2500+ apps (DocuSign, Facebook, Slack, etc), so there's no need to create new personally-managed accounts.",
+            "initialPosition": "sso-scenario4__tooltip5 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "solution_start"
+          },
+          {
+            "htmlId": "scenario4_tooltip6",
+            "businessStatement": "IT can delegate self-service group management to speed up onboarding (example).",
+            "initialPosition": "sso-scenario4__tooltip6 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario4_tooltip7",
+            "businessStatement": "I can quickly change user or group access if a re-org happens in my business and IT systems are not clogged with inactive users.",
+            "initialPosition": "sso-scenario4__tooltip7 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario4_tooltip8",
+            "businessStatement": "Data leaks are decreased by disconnecting the accounts of employees who have left; if an employee leaves, their access doesn't leave with them.",
+            "initialPosition": "sso-scenario4__tooltip8 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "solution"
+          }
+        ]
+      }
+    }
+  ],
+  "itPro": {
+    "description": "Follow the steps below to see how to implement Single Sign-On for your company. The PDFs in each step contain detailed walkthroughs, including screenshots, of how to complete the step.",
+    "itProSteps": [
+      {
+        "id": "1",
+        "title": "Configure Self-Service Password Reset",
+        "description": "First, let's configure Self-Service password resetting through the Azure Management Portal.",
+        "pdfLinks": [
+          {
+            "url": "lib/blobStorage/SSO/ItPro/SSO_Self_Service_Password_Reset.pdf",
+            "linkText": ""
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Configure Group Management",
+        "description": "Second, we'll implement Delegated Group Management and Dynamic Group Membership through the Azure Management Portal.",
+        "pdfLinks": [
+          {
+            "url": "lib/blobStorage/SSO/ItPro/SSO_Group_Management.pdf",
+            "linkText": ""
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Configure Cloud App Discovery Service",
+        "description": "Third, let's discover cloud (SaaS) apps used within your business through the Azure Administration Portal.",
+        "pdfLinks": [
+          {
+            "url": "lib/blobStorage/SSO/ItPro/SSO_Cloud_App_Discovery_Service.pdf",
+            "linkText": ""
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Configure Cloud App Reporting and Management",
+        "description": "Fourth, we'll set up reporting and management to learn more about the details and usage patterns of our cloud apps.",
+        "pdfLinks": [
+          {
+            "url": "lib/blobStorage/SSO/ItPro/SSO_Cloud_App_Reporting_And_Management.pdf",
+            "linkText": ""
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Configure SaaS applications",
+        "description": "Now let's provide managed and secure access to our apps by adding them to Azure AD.",
+        "pdfLinks": [
+          {
+            "url": "lib/blobStorage/SSO/ItPro/SSO_Configure_SaaS_Applications.pdf",
+            "linkText": ""
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Implement Single Sign-On",
+        "description": "Now that everything's ready to go, let's implement Single Sign-On!",
+        "pdfLinks": [
+          {
+            "url": "lib/blobStorage/SSO/ItPro/SSO_Implementing_SSO.pdf",
+            "linkText": ""
+          }
+        ]
+      }
+    ]
+  }
+}
