@@ -1,13 +1,19 @@
 # service-offerings
 
-[DOCUMENTATION NOT YET COMPLETED]
+Angular2 source code for each of the interactive Service Offerings at https://emshub.cloud.com/#/clickthrough: Introduction, Single Sign-On (SSO), Mobile Application Management (MAM), Mobile Device Management (MDM), and Multi-Factor Authentication (MFA). The code here can be integrated into sites or run locally.
 
-These folders correspond to each of the interactive Service Offerings at https://emshub.cloud.com.
 
-The individual Service_Offerings folders have self-contained code that can be integrated into a site, or run locally. 
+##Individual Service Offerings
+The individual Service_Offerings folders have self-contained code for individual Service Offerings. If you only want to use one of the five Service Offerings, we recommend you just grab that folder. 
 
-They include the images and content displayed on the site.
 
-The All_Service_Offerings has the code to run all Service Offerings
+##All Service Offerings
 
-If you'd like to get the code for more than one Service Offering, use the All_Service_Offerings folder
+The All_Service_Offerings folder has the code and content for every Service Offering on https://emshub.cloud.com/#/clickthrough.
+If you're planning to use more than one Service Offering, it's recommended that you get this folder to avoid duplicate code. All Service Offerings use the same base components; it is only the content they read in that differs. 
+
+That content lives in...
+* wwwroot/lib/json: content of a Service Offerings - titles, descriptions, pop up text, references to image files, implementation steps, etc (broken out by file name)
+* wwwroot/lib/img/clickthrough: images for Service Offerings (broken out by folders)
+* wwwroot/lib/pdf: implementation steps for Service Offerings in PDF format (broken up by folders)
+
