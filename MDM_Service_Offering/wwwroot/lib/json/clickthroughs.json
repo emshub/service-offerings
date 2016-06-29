@@ -1,0 +1,12 @@
+﻿{
+  "clickthroughs": [
+    {
+      "id": "3",
+      "title": "mdm",
+      "longTitle": "Mobile Device Management",
+      "description": "Mobile Device Management enables the business to control access of external devices to their business systems and data without compromising the users experience or personal data. Businesses can effectively support the emerging trend of 'Bring Your Own Device', along with company supplied devices through a single, central console.  Users can register their device, and in exchange acquire permitted programs and applications without the need to contact IT. This presentation will discuss the common scenarios a user and business will solve with Mobile Device Management.",
+      "image": "/lib/img/clickthrough/mdm/cspems_website_clickthru_demo_imgs_cspems_website_clickthru_mdm_1140x641.png#",
+      "file": "mdm-clickthroughs.json"
+    }
+  ]
+}

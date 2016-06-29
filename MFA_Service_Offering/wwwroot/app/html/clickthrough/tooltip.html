@@ -1,0 +1,13 @@
+﻿<div [class]="toolTip.initialPosition" (click)="showToolTip()"><span [class]="toolTip.style"></span>
+    <div #toolTipDiv class="scenario-tooltip scenario-tooltip__{{toolTip.position}}-round {{toolTip.position}}" >
+        <div *ngIf="toolTip.personStatement" class="scenario-tooltip__person">
+            <span class="glyphicon glyphicon-user scenario-tooltip-statement--Icon"></span>
+            <span><p class="scenario-tooltip__statement text--sm">"{{toolTip.personStatement}}"</p></span>
+        </div>
+        <div *ngIf="toolTip.businessStatement" class="scenario-tooltip__biz" >
+            <span class="glyphicon glyphicon-briefcase scenario-tooltip-statement--Icon"></span>
+            <span><p class="scenario-tooltip__statement text--sm">"{{toolTip.businessStatement}}"</p></span>
+        </div>
+    </div>
+</div>
+
