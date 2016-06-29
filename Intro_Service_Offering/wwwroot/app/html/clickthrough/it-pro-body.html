@@ -1,0 +1,25 @@
+﻿
+
+<div class="container it-pro-steps"  style="padding-top:300px;position:relative;" >
+    <div *ngFor="let step of steps">
+        <div class="row it-pro-step" id="step-{{step.id}}">
+            <div class="col-xs-3 it-pro-step__left">
+                <div class="it-pro-step__number text--md text--semilight">Step {{step.id}}</div>
+                <div class="text--sm text--bold">{{step.title}}</div>
+            </div>
+            <div class="col-xs-9 it-pro-step__right">
+                <div> {{step.description}}</div>
+                <div *ngFor="let pdfLink of step.pdfLinks" class="it-pro-step__link">
+                    <a href="{{pdfLink.url}}" target="_blank">
+                        <span *ngIf="pdfLink.linkText == ''">
+                            <img class="pdf-icon" src="../../../lib/img/clickthrough/document_icon_20x20.png" /> Get the steps
+                        </span>
+                        <span *ngIf="pdfLink.linkText != ''">
+                            <img class="pdf-icon" src="../../../lib/img/clickthrough/document_icon_20x20.png" /> {{pdfLink.linkText}}
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+﻿.it-pro-header .it-pro-header__title {
+  padding: 55px 0 20px 0;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+.it-pro-header .it-pro-header__description {
+  padding: 20px 0;
+  background-color: #e3e3e3;
+}
+.step-nav .step-nav__step.active {
+  background-color: #2f2f2f;
+}
+.it-pro-steps {
+  margin-bottom: 60px;
+}
+.it-pro-step {
+  margin-bottom: 20px;
+}
+.it-pro-step .it-pro-step__left {
+  background-color: #99c9ef;
+  padding: 20px 20px 30px 20px;
+  height: 160px;
+}
+.it-pro-step .it-pro-step__left .it-pro-step__number {
+  margin-bottom: 20px;
+}
+.it-pro-step .it-pro-step__right {
+  background-color: #c5e0f6;
+  padding: 20px 20px 30px 20px;
+  height: 160px;
+}
+.it-pro-step .it-pro-step__right .it-pro-step__link {
+  padding-top: 20px;
+}
+.it-pro-step .it-pro-step__right .it-pro-step__link a {
+  color: #812300;
+}
+.it-pro-step .it-pro-step__right .it-pro-step__link a:hover {
+  text-decoration: none;
+}
+.pdf-icon {
+  padding-right: 5px;
+  vertical-align: bottom;
+}
+.step-nav {
+  border-bottom: 2px solid #e3e3e3;
+  text-align: center;
+}

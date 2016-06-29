@@ -1,0 +1,12 @@
+﻿{
+  "clickthroughs": [
+    {
+      "id": "5",
+      "title": "intro",
+      "longTitle": "EMS Introduction",
+      "description": "Microsoft Enterprise Mobility Management provides the ability to manage access and authentication, devices, applications, content and information to a mobile workforce, all from a single central administrative console. As the demands from today's mobile workforce grows, businesses need comprehensive tools that empower their mobile workforce. This presentation identifies and discusses the common challenges faced by the modern business and how to effectively solve them with Microsoft's Enterprise Mobile Management.",
+      "image": "/lib/img/clickthrough/intro/cspems_website_clickthru_demo_imgs_cspems_website_clickthru_intro_1140x641.png#",
+      "file": "intro-clickthroughs.json"
+    }
+  ]
+}

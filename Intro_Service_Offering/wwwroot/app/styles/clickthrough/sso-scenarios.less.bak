@@ -1,0 +1,242 @@
+﻿@import "../_semantic-colors.less";
+
+@tooltip-pointer: pointer;
+@tooltip-border-radius: 100%;
+@tooltip-padding: 6px;
+@tooltip-height: 30px;
+@tooltip-width: 30px;
+@tooltip-position: relative;
+
+.sso-scenario1__password-icons {
+    bottom: 457px;
+    left: 342px;
+    max-width: 26%;
+    position: relative;
+}
+
+.sso-scenario1__hacker-image {
+    left: 459.85px;
+    max-width: 25%;
+    position: relative;
+    top: -431.95px;
+}
+
+.sso-scenario1__airplane {
+    left: 113px;
+    max-width: 8%;
+    position: relative;
+    top: 78.15px;
+    z-index: -1;
+}
+
+.sso-scenario1__post-it {
+    left: 315px;
+    max-width: 17%;
+    position: relative;
+    top: -202px;
+}
+
+.sso-scenario1__monitors {
+    left: 230.35px;
+    max-width: 26.55%;
+    position: relative;
+    top: -485.48px;
+}
+
+.guy {
+    left: 189.95px;
+    max-width: 18%;
+    position: relative;
+    top: -238.58px;
+    z-index: 1;
+}
+
+.sso-scenario1__master-key {
+    left: 366.85px;
+    max-width: 20%;
+    position: relative;
+    top: -574.95px;
+}
+
+.scenario-illustration {
+    height: 100vh;
+}
+
+
+.sso-scenario1__tooltip1{
+    background: @orange;
+    border-radius: @tooltip-border-radius;
+    bottom: 1434px;
+    cursor: @tooltip-pointer;
+    height: @tooltip-height;
+    left: 64px;
+    padding: @tooltip-padding;
+    position: @tooltip-position;
+    width: @tooltip-width;
+}
+
+.sso-scenario1__tooltip2 {
+    background: @orange;
+    border-radius: @tooltip-border-radius;
+    bottom: 1458px;
+    cursor: @tooltip-pointer;
+    height: @tooltip-height;
+    left: 548px;
+    padding: @tooltip-padding;
+    position: @tooltip-position;
+    width: @tooltip-width;
+}
+
+.sso-scenario1__tooltip3{
+    background: @orange;
+    border-radius: @tooltip-border-radius;
+    bottom: 1226px;
+    cursor: @tooltip-pointer;
+    height: @tooltip-height;
+    left: 153px;
+    padding: @tooltip-padding;
+    position: @tooltip-position;
+    width: @tooltip-width;
+}
+
+.sso-scenario1__tooltip4{
+    background: @orange;
+    border-radius: @tooltip-border-radius;
+    bottom: 1317px;
+    cursor: @tooltip-pointer;
+    height: @tooltip-height;
+    left: 593px;
+    padding: @tooltip-padding;
+    position: @tooltip-position;
+    width: @tooltip-width;
+}
+
+.sso-scenario1__tooltip5{
+    background: @orange;
+    border-radius: @tooltip-border-radius;
+    bottom: 718px;
+    cursor: @tooltip-pointer;
+    height: @tooltip-height;
+    left: 329px;
+    padding: @tooltip-padding;
+    position: @tooltip-position;
+    width: @tooltip-width;
+}
+
+.sso-scenario1__tooltip6{
+    background: @orange;
+    border-radius: @tooltip-border-radius;
+    bottom: 602px;
+    cursor: @tooltip-pointer;
+    height: @tooltip-height;
+    left: 163px;
+    padding: @tooltip-padding;
+    position: @tooltip-position;
+    width: @tooltip-width;
+}
+
+.sso-scenario1__tooltip7{
+    background: @orange;
+    border-radius: @tooltip-border-radius;
+    bottom: 571px;
+    cursor: @tooltip-pointer;
+    height: @tooltip-height;
+    left: 438px;
+    padding: @tooltip-padding;
+    position: @tooltip-position;
+    width: @tooltip-width;
+    }
+
+.sso-scenario2__desk-guy{
+    bottom: 298px;
+    left: 100px;
+    max-width: 18%;
+    position: relative;
+    z-index: 1;
+}
+.sso-scenario2__problem{
+    
+}
+.sso-scenario2__exclaimation{
+    bottom: 635px;
+    left: 104px;
+    max-width: 8%;
+    position: relative;
+}
+.sso-scenario2__monitor{
+    bottom: 585px;
+    left: 149px;
+    max-width: 13%;
+    position: relative;
+}
+.sso-scenario2__nightmare-items{
+    bottom: 760px;
+    left: 443px;
+    max-width: 23%;
+    position: relative;
+}
+.sso-scenario2__mobile{
+    bottom: 573px;
+    left: 526px;
+    max-width: 10%;
+    position: relative;
+}
+.sso-scenario2__desk-guy-solution{
+    bottom: 369px;
+    left: 112px;
+    max-width: 18%;
+    position: relative;
+    z-index: 1;
+}
+.sso-scenario2__superit{
+    bottom: 695px;
+    left: 455px;
+    max-width: 25%;
+    position: relative;
+}
+.sso-scenario2__monitor-key{
+    bottom: 259px;
+    left: 154px;
+    max-width: 13%;
+    position: relative;
+}
+.sso-scenario2__xbox{
+    bottom: 522px;
+    left: 511px;
+    max-width: 7%;
+    position: relative;
+}
+.sso-scenario3__problem{
+    z-index:-1;
+}
+.sso-scenario3__big-cloud-items{
+    bottom: 358px;
+    left: 423px;
+    max-width: 33%;
+    position: relative;
+}
+.sso-scenario3__desk-guy{
+    bottom: 699px;
+    left: 133px;
+    max-width: 21%;
+    position: relative;
+}
+.sso-scenario3__little-cloud-items{
+    bottom: 679px;
+    left: 47px;
+    max-width: 19%;
+    position: relative;
+}
+.sso-scenario3__mobile{
+    bottom: 614px;
+    left: 126px;
+    max-width: 4%;
+    position: relative;
+    z-index: 1;
+}
+.sso-scenario3__monitor{
+     bottom: 467px;
+    left: 154px;
+    max-width: 13%;
+    position: relative;
+}
