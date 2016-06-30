@@ -1,6 +1,6 @@
 # service-offerings
 
-Angular2 source code for each of the interactive Service Offerings at https://emshub.cloud.com/#/clickthrough: Introduction, Single Sign-On (SSO), Mobile Application Management (MAM), Mobile Device Management (MDM), and Multi-Factor Authentication (MFA). The code here can be integrated into sites or run locally.
+Angular2 source code for each of the interactive Service Offerings at https://emshub.cloud/#/clickthrough: Introduction, Single Sign-On (SSO), Mobile Application Management (MAM), Mobile Device Management (MDM), and Multi-Factor Authentication (MFA). The code here can be integrated into sites or run locally.
 
 
 ##Individual Service Offerings
