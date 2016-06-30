@@ -9,7 +9,7 @@ The individual Service_Offerings folders have self-contained code for individual
 
 ##All Service Offerings
 
-The All_Service_Offerings folder has the code and content for every Service Offering on https://emshub.cloud.com/#/clickthrough.
+The All_Service_Offerings folder has the code and content for every Service Offering on https://www.emshub.cloud.com/#/clickthrough.
 If you're planning to use more than one Service Offering, it's recommended that you get this folder to avoid duplicate code. All Service Offerings use the same base components; it is only the content they read in that differs. 
 
 That content lives in...
