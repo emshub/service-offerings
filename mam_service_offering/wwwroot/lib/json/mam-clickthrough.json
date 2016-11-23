@@ -1,0 +1,700 @@
+{
+  "title": "Mobile Application Management",
+  "description": "Mobile Application Management enables the business to enforce policies on mobile devices across the organization for specific applications, such as corporate email. Whether or not these devices are enrolled in a device management system, this keeps corporate data safe and the ability to wipe away only the company controlled data. This presentation will discuss the common scenarios a user and business will solve with Mobile Application Management.",
+  "videoUrl": "https://mscspemsclientuats1.blob.core.windows.net/sitestorage/Videos/EMS_SCENARIO_03_MAM.mp4",
+  "scenarios": [
+    {
+      "id": "1",
+      "title": "I only have to carry one mobile device with me.",
+      "shortTitle": "Secure Bring Your Own Device",
+      "description": "",
+      "image": "/lib/img/clickthrough/mam/clickthru_introslide_images_mam_intro_scenario_1_176x130.png#",
+      "menuIcon": "phone",
+      "page": {
+        "illustrations": [
+          {
+            "id": "1",
+            "location": "top",
+            "header": "I have to carry two mobile devices!",
+            "images": [
+              {
+                "htmlId": "scenario1_image1",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - bg - problem.svg#",
+                "initialPosition": "mam-scenario1__twins",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image2",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - files arrows - 385x88.svg#",
+                "initialPosition": "mam-scenario1__error-icon",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image3",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - personal cloud - 214x176.svg#",
+                "initialPosition": "mam-scenario1__personal-device",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image4",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - work cloud - 214x178.svg#",
+                "initialPosition": "mam-scenario1__work-device",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image5",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - device box - 108x126.svg#",
+                "initialPosition": "mam-scenario1__it-box",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image6",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - dollars - 134x62.svg#",
+                "initialPosition": "mam-scenario1__dollars",
+                "imageResponsive": ""
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "location": "bottom",
+            "header": "I only have to carry one mobile device with me.",
+            "images": [
+              {
+                "htmlId": "scenario1_image7",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - bg - solution.svg#",
+                "initialPosition": "mam-scenario1__one-twin",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image8",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - cloud - 406x284.svg#",
+                "initialPosition": "mam-scenario1__app-cloud",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image9",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - cloud contents - 218x210.svg#",
+                "initialPosition": "mam-scenario1__app-cloud-content",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image10",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - cityscape - 198x129.svg#",
+                "initialPosition": "mam-scenario1__city-escape",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image11",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - IT guy - 156x310.svg#",
+                "initialPosition": "mam-scenario1__it-guy",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image12",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 1 - shadow - 249x20.svg#",
+                "initialPosition": "mam-scenario1__shadow",
+                "imageResponsive": ""
+              }
+            ]
+          }
+        ],
+        "tooltips": [
+          {
+            "htmlId": "scenario1_tooltip1",
+            "personStatement": "My IT department has really strict rules and won't let me access my work information from my own tablet.",
+            "initialPosition": "mam-scenario1__tooltip1 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "problem_start"
+          },
+          {
+            "htmlId": "scenario1_tooltip2",
+            "personStatement": "Sometimes, I may break IT policies by forwarding work emails and files to my personal email or Dropbox account so that I can work on my personal tablet.",
+            "businessStatement": "Data leaks can occur if employees forward their work email and documents to their personal device.",
+            "initialPosition": "mam-scenario1__tooltip2 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario1_tooltip3",
+            "personStatement": "I don't bring my work phone with me when on holiday. This means I can't access my work resources to act on urgent request from my colleagues.",
+            "businessStatement": "Since employees may not carry their work device outside of work hours, Employees have limited ability to help if there's a large-scale problem.",
+            "initialPosition": "mam-scenario1__tooltip3 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario1_tooltip4",
+            "personStatement": "I have to carry my work phone alongside my personal phone to get work done.",
+            "businessStatement": "New employees need training on how to use their work devices if they are not familiar with the environment (i.e. an iPhone user who is new to Android).",
+            "initialPosition": "mam-scenario1__tooltip4 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario1_tooltip5",
+            "businessStatement": "Employees are unhappy carrying 2 mobile devices for personal and work use. As the organization grows, it is expensive to purchase work specific mobile phones for new employees to provide access to work resources.",
+            "initialPosition": "mam-scenario1__tooltip5 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario1_tooltip6",
+            "businessStatement": "I can use my personal device to access my work information without getting in trouble with IT.",
+            "initialPosition": "mam-scenario1__tooltip6 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "solution_start"
+          },
+          {
+            "htmlId": "scenario1_tooltip7",
+            "businessStatement": "Because I always have my personal device with me, I am more responsive to work requests from my colleagues.",
+            "initialPosition": "mam-scenario1__tooltip7 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario1_tooltip8",
+            "businessStatement": "In addition to my personal phone, I can access work resources from my iPad, allowing me to work out of the office.",
+            "initialPosition": "mam-scenario1__tooltip8 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario1_tooltip9",
+            "businessStatement": "I am more productive as I am using an environment and mobile device that I am familiar with.",
+            "initialPosition": "mam-scenario1__tooltip9 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario1_tooltip10",
+            "businessStatement": "IT can support BYOD if employees prefer their own devices.",
+            "initialPosition": "mam-scenario1__tooltip10 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "solution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "title": "I can easily gain access to the mobile applications I need to do work on my phone and tablet!",
+      "shortTitle": "Mobile Application Delivery",
+      "description": "",
+      "image": "/lib/img/clickthrough/mam/clickthru_introslide_images_mam_intro_scenario_2_176x130.png#",
+      "menuIcon": "share-alt",
+      "page": {
+        "illustrations": [
+          {
+            "id": "1",
+            "location": "top",
+            "header": "It's difficult for me to install mobile applications created by my IT department.",
+            "images": [
+              {
+                "htmlId": "scenario2_image1",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 2 - bg - problem.svg#",
+                "initialPosition": "mam-boy-girl",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image2",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 2 - cloud arrows - 186x162.svg#",
+                "initialPosition": "mam-scenario2__public-app-store",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image3",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 2 - question - 52x74.svg#",
+                "initialPosition": "mam-scenario2__boy-question",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image4",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 2 - question - 52x74.svg#",
+                "initialPosition": "mam-scenario2__girl-question",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image5",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 2 - IT man climbing - 266x409.svg#",
+                "initialPosition": "mam-scenario2__it-man-climbing",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image6",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 2 - exclamation - 42x69.svg#",
+                "initialPosition": "mam-scenario2__it-man-exclamation",
+                "imageResponsive": ""
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "location": "bottom",
+            "header": "I can easily gain access to the mobile applications I need to do work on my phone and tablet!",
+            "images": [
+              {
+                "htmlId": "scenario2_image7",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 2 - bg - solution.svg#",
+                "initialPosition": "mam-scenario1__it-guy-with-box",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image8",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 2 - happy users - 209x311.svg#",
+                "initialPosition": "mam-scenario2__happy-users",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image9",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 2 - apps arrow - 163x54.svg#",
+                "initialPosition": "mam-scenario2__apps-arrow",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image10",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 2 - cloud - 309x250.svg#",
+                "initialPosition": "mam-scenario2__cloud",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario2_image11",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 2 - cloud contents - 185x149.svg#",
+                "initialPosition": "mam-scenario2__cloud-content",
+                "imageResponsive": ""
+              }
+            ]
+          }
+        ],
+        "tooltips": [
+          {
+            "htmlId": "scenario2_tooltip1",
+            "personStatement": "I have to personally find and download apps I need to do my job from the app store.",
+            "businessStatement": "We don't have a place for users to find work-related mobile apps for mobile devices they use.",
+            "initialPosition": "mam-scenario2__tooltip1 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "problem_start"
+          },
+          {
+            "htmlId": "scenario2_tooltip2",
+            "personStatement": "My colleagues and I use different mobile apps for the same task like expense tracking, making it difficult to merge information after a project.",
+            "businessStatement": "Employees resort to finding and installing their own work-related mobile apps from the public app store.",
+            "initialPosition": "mam-scenario2__tooltip2 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario2_tooltip3",
+            "personStatement": "Our IT department's process for installing mobile apps involves so many steps and they can't be installed from my phone's app store.",
+            "businessStatement": "IT has no effective way to manage and push required apps to users' devices. On-premise solutions would be complex and expensive to build.",
+            "initialPosition": "mam-scenario2__tooltip3 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario2_tooltip4",
+            "personStatement": "I downloaded a document editor for my Android other than Microsoft Word, so it ruined the formatting of the Word document my colleague sent me.",
+            "initialPosition": "mam-scenario2__tooltip4 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario2_tooltip5",
+            "businessStatement": "It's hard for IT to help employees with app problems if that app isn't managed by IT.",
+            "initialPosition": "mam-scenario2__tooltip5 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario2_tooltip6",
+            "businessStatement": "Everyone uses the same set of apps, which makes working together easier. I no longer have to fix formatting ruined by someone not using Office.",
+            "initialPosition": "mam-scenario2__tooltip6 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "solution_start"
+          },
+          {
+            "htmlId": "scenario2_tooltip7",
+            "businessStatement": "The list of required and recommended mobile applications can include apps developed by the internal IT team or public store apps.",
+            "initialPosition": "mam-scenario2__tooltip7 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario2_tooltip8",
+            "businessStatement": "IT can easily deliver required apps and provide a consistent way for users to install work-related apps across iOS, Android and Windows phones.",
+            "initialPosition": "mam-scenario2__tooltip8 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario2_tooltip9",
+            "businessStatement": "Mobile apps and devices can be managed from an intuitive central interface.",
+            "initialPosition": "mam-scenario2__tooltip9 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario2_tooltip10",
+            "businessStatement": "Relevant apps can be made available only to specific groups. Users are not bombarded with apps that they don't need.",
+            "initialPosition": "mam-scenario2__tooltip10 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "solution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "title": "I can prevent accidental leaks of confidential information!",
+      "shortTitle": "App-level data protection",
+      "description": "",
+      "image": "/lib/img/clickthrough/mam/clickthru_introslide_images_mam_intro_scenario_3_176x130.png#",
+      "menuIcon": "lock",
+      "page": {
+        "illustrations": [
+          {
+            "id": "1",
+            "location": "top",
+            "header": "I accidentally shared a confidential document I was storing on Dropbox with a customer!",
+            "images": [
+              {
+                "htmlId": "scenario3_image1",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 3 - bg - problem.svg#",
+                "initialPosition": "mam-scenario3__guy-in-computer",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image2",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 3 - cloud arrows error - 248x224.svg#",
+                "initialPosition": "mam-scenario3__cloud-personal-app",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image3",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 3 - question - 36x51.svg#",
+                "initialPosition": "mam-scenario3__guy-in-computer-question"
+              },
+              {
+                "htmlId": "scenario3_image4",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 3 - IT rules long - 201x265.svg#",
+                "initialPosition": "mam-scenario3__it-policies",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image5",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 3 - IT lady - 241x305.svg#",
+                "initialPosition": "mam-scenario3__it-lady",
+                "imageResponsive": ""
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "location": "bottom",
+            "header": "I can prevent accidental leaks of confidential information!",
+            "images": [
+              {
+                "htmlId": "scenario3_image6",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 3 - bg - solution.svg#",
+                "initialPosition": "mam-guy-in-garden",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image7",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 3 - bubble - 205x205.svg#",
+                "initialPosition": "mam-scenario3__all-company-data",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image8",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 3 - cloud arrows - 265x240.svg#",
+                "initialPosition": "mam-scenario3__cloud-personal-app2",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario3_image10",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 3 - IT rules cloud - 205x172.svg#",
+                "initialPosition": "mam-scenario3__cloud-it-policies",
+                "imageResponsive": ""
+              }
+            ]
+          }
+        ],
+        "tooltips": [
+          {
+            "htmlId": "scenario3_tooltip1",
+            "personStatement": "My phone's email app downloads attachments from my work email onto my phone, breaking our IT rules.",
+            "businessStatement": "Being very restrictive with access to company data results in lost productivity when employees aren't in the office.",
+            "initialPosition": "mam-scenario3__tooltip1 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "problem_start"
+          },
+          {
+            "htmlId": "scenario3_tooltip2",
+            "personStatement": "It is very easy for me to open email attachments on my phone and accidentally save them onto my personal Dropbox account.",
+            "initialPosition": "mam-scenario3__tooltip2 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario3_tooltip3",
+            "businessStatement": "Having work apps exist side-by-side with personal apps increases the risk of business data getting into the wrong hands.",
+            "initialPosition": "mam-scenario3__tooltip3 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario3_tooltip4",
+            "personStatement": "I often have to re-read IT rules on mobile device use, that are not clear to me to remember them.",
+            "businessStatement": "IT is unable to easily monitor or prevent users from putting company data in personal apps.",
+            "initialPosition": "mam-scenario3__tooltip4 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario3_tooltip5",
+            "personStatement": "We have strict IT rules regarding where we can put company data, like my personal Dropbox account.",
+            "businessStatement": "The company is stuck between enabling employees to work anywhere, on any device and keeping data secure.",
+            "initialPosition": "mam-scenario3__tooltip5 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario3_tooltip6",
+            "businessStatement": "I can prevent users from saving corporate data outside of IT control, like their personal Dropbox account.",
+            "initialPosition": "mam-scenario3__tooltip6 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution_start"
+          },
+          {
+            "htmlId": "scenario3_tooltip7",
+            "businessStatement": "I can prevent users from copying data between apps, taking a screenshot, or printing the data.",
+            "initialPosition": "mam-scenario3__tooltip7 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario3_tooltip8",
+            "businessStatement": "I can prevent business apps from sharing data with other apps that are not managed by IT.",
+            "initialPosition": "mam-scenario3__tooltip8 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario3_tooltip9",
+            "businessStatement": "I can protect corporate data by forcing IT-managed apps to be pin protected.",
+            "initialPosition": "mam-scenario3__tooltip9 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario3_tooltip10",
+            "businessStatement": "Users are more productive since they can work from anywhere with any device without compromising data security.",
+            "initialPosition": "mam-scenario3__tooltip10 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario3_tooltip11",
+            "businessStatement": "Besides Microsoft Office, IT can deploy LOB apps to mobile devices to allow employees to securely view online content through an IT-managed app.",
+            "initialPosition": "mam-scenario3__tooltip11 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "title": "If IT wipes my phone, I won't lose my family photos.",
+      "shortTitle": "Selective Wipe",
+      "description": "",
+      "image": "/lib/img/clickthrough/mam/clickthru_introslide_images_mam_intro_scenario_4_176x130.png#",
+      "menuIcon": "trash",
+      "page": {
+        "illustrations": [
+          {
+            "id": "1",
+            "location": "top",
+            "header": "I sometimes work on my personal phone and when I lost it, IT had to delete all of my data, including my family photos!",
+            "images": [
+              {
+                "htmlId": "scenario4_image1",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 4 - bg - problem.svg#",
+                "initialPosition": "mam-office-park",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image2",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 4 - runner - 196x252.svg#",
+                "initialPosition": "mam-scenario4__runner",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image3",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 4 - arrow - 110x64.svg#",
+                "initialPosition": "mam-scenario4__arrow-down",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image4",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 4 - clouds - 282x180.svg#",
+                "initialPosition": "mam-scenario4__personal-work-data",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image5",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 4 - mobile - 34x26.svg#",
+                "initialPosition": "mam-scenario4__mobile-phone",
+                "imageResponsive": ""
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "location": "bottom",
+            "header": "If IT wipes my phone, I won't lose my family photos.",
+            "images": [
+              {
+                "htmlId": "scenario4_image6",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 4 - bg - solution.svg#",
+                "initialPosition": "mam-office-tree",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image7",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 4 - runner jumping - 165x273.svg#",
+                "initialPosition": "mam-scenario4__runner-jumping",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image8",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 4 - personal data - 202x106.svg#",
+                "initialPosition": "mam-scenario4__personal-data",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario4_image9",
+                "source": "../lib/img/clickthrough/mam/MAM_illustrations_pieces_mam - 4 - work data - 262x165.svg#",
+                "initialPosition": "mam-scenario4__work-data",
+                "imageResponsive": ""
+              }
+            ]
+          }
+        ],
+        "tooltips": [
+          {
+            "htmlId": "scenario4_tooltip1",
+            "personStatement": "I've heard that when I add my work account to my mobile device, the only way for IT to remove work information is by clearing all the data on my phone, including photos taken from my last family holiday.",
+            "businessStatement": "IT needs to remove company data on employees' personal phones and tablets if the device is lost, compromised or the employee leaves the organization.",
+            "initialPosition": "mam-scenario4__tooltip1 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "problem_start"
+          },
+          {
+            "htmlId": "scenario4_tooltip2",
+            "personStatement": "Because I don't want to lose my personal data, I may delay telling IT that I have lost my mobile device.",
+            "businessStatement": "IT is under a lot of pressure from employees to retain their personal information when removing company data, which can be time-consuming.",
+            "initialPosition": "mam-scenario4__tooltip2 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario4_tooltip3",
+            "personStatement": "To protect my personal photos, I have to request a work phone from my employer and carry two phones with me to keep work and personal data separate.",
+            "businessStatement": "Systems that allow IT to differentiate between company and personal data on employee's personal mobile devices are often complex and expensive to setup for smaller organizations.",
+            "initialPosition": "mam-scenario4-tooltip3 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario4_tooltip4",
+            "businessStatement": "Having their personal data protected makes employees more at ease with adding their work account into their personal device and will be more likely to report lost or compromised mobile device promptly.",
+            "initialPosition": "mam-scenario4__tooltip4 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution_start"
+          },
+          {
+            "htmlId": "scenario4_tooltip5",
+            "businessStatement": "When my IT admin chooses to remove company data from my phone, my personal data such as family photos are not lost.",
+            "initialPosition": "mam-scenario4__tooltip5 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario4_tooltip6",
+            "businessStatement": "Although the IT admin still has the option to remove all the data on the mobile phone, they now have the option to only wipe the company data.",
+            "initialPosition": "mam-scenario4__tooltip6 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-right",
+            "type": "solution"
+          }
+        ]
+      }
+    }
+  ],
+  "itPro": {
+    "description": "Follow the steps below to see how to implement Mobile Application Management for your company. The PDFs in each step contain detailed walkthroughs, including screenshots, of how to complete the step.",
+    "itProSteps": [
+      {
+        "id": "1",
+        "title": "Create a MAM policy",
+        "description": "First, let's set up a new MAM policy through the Intune Management Portal.",
+        "pdfLinks": [
+          {
+            "url": "lib/blobStorage/MAM/ItPro/MAM_Setup_Policy.pdf",
+            "linkText": ""
+          }
+
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Create a MAM policy without device enrollment",
+        "description": "Second, we'll see how to set up a MAM policy without requiring devices to be enrolled in Microsoft Intune.",
+        "pdfLinks": [
+          {
+            "url": "lib/blobStorage/MAM/ItPro/MAM_Setup_Policy_Without_Device_Enrollment.pdf",
+            "linkText": ""
+          }
+        ]
+      }
+    ]
+  }
+}

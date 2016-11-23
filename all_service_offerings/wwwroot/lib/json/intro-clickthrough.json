@@ -1,0 +1,248 @@
+{
+  "title": "Enterprise Mobility",
+  "description": "Microsoft Enterprise Mobility Management provides the ability to manage access and authentication, devices, applications, content and information to a mobile workforce, all from a single central administrative console. As the demands from today's mobile workforce grows, businesses need comprehensive tools that empower their mobile workforce. This presentation identifies and discusses the common challenges faced by the modern business and how to effectively solve them with Microsoft's Enterprise Mobile Management.",
+  "videoUrl": "",
+  "scenarios": [
+    {
+      "id": "1",
+      "title": "I can work anywhere, anytime and using any device!",
+      "shortTitle": "Enterprise Mobility Introduction ",
+      "description": "",
+      "image": "/lib/img/clickthrough/intro/intro_intro_176x130.png#",
+      "menuIcon": "cloud",
+      "page": {
+        "illustrations": [
+          {
+            "id": "1",
+            "location": "top",
+            "header": "Working outside the office is difficult!",
+            "images": [
+              {
+                "htmlId": "scenario1_image1",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - bg - problem - 744x452.svg#",
+                "initialPosition": "intro-scenario1__three-guys",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image2",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - trees - 68x63.svg#",
+                "initialPosition": "intro-scenario1__trees",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image3",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - small exclamation - 21x44.svg#",
+                "initialPosition": "intro-scenario1__small-exclamation",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image4",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - large exclamation - 28x60.svg#",
+                "initialPosition": "intro-scenario1__large-exclamation",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image5",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - medium exclamation - 23x49.svg#",
+                "initialPosition": "intro-scenario1__medium-exclamation",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image6",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - small alert - 32x18.svg#",
+                "initialPosition": "intro-scenario1__small-alert",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image7",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - diagonal alert - 29x30.svg#",
+                "initialPosition": "intro-scenario1__diagonal-alert",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image8",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - medium alert - 36x20.svg#",
+                "initialPosition": "intro-scenario1__medium-alert",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image9",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - small white blocker - 12x12.svg#",
+                "initialPosition": "intro-scenario1__small-white-blocker",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image10",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - purple blocker - 9x9.svg#",
+                "initialPosition": "intro-scenario1__purple-blocker",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image11",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - large white blocker - 19x19.svg#",
+                "initialPosition": "intro-scenario1__large-white-blocker",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image12",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - cat window - 113x113.svg#",
+                "initialPosition": "intro-scenario1__cat-window",
+                "imageResponsive": ""
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "location": "bottom",
+            "header": "I can work anywhere, anytime and using any device.",
+            "images": [
+              {
+                "htmlId": "scenario1_image13",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - bg - solution - 744x452.svg#",
+                "initialPosition": "intro-scenario1__three-happy-guys",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image2",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - trees - 68x63.svg#",
+                "initialPosition": "intro-scenario1__trees2",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image12",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - dashed lines - 392x147.svg#",
+                "initialPosition": "intro-scenario1__dashed-lines",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image12",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - files and mails - 353x165.svg#",
+                "initialPosition": "intro-scenario1__files-and-mails",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image12",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - small white key - 22x13.svg#",
+                "initialPosition": "intro-scenario1__small-white-key",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image12",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - purple key - 13x7.svg#",
+                "initialPosition": "intro-scenario1__purple-key",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image12",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - large white key - 33x19.svg#",
+                "initialPosition": "intro-scenario1__large-white-key",
+                "imageResponsive": ""
+              },
+              {
+                "htmlId": "scenario1_image12",
+                "source": "../lib/img/clickthrough/intro/EMS-intro_pieces_intro - cat window - 113x113.svg#",
+                "initialPosition": "intro-scenario1__cat-window2",
+                "imageResponsive": ""
+              }
+            ]
+          }
+        ],
+        "tooltips": [
+          {
+            "htmlId": "scenario1_tooltip1",
+            "businessStatement": "I am less productive when I can't use my mobile devices for outside the office. It has become difficult to track and managing devices with the increasing numbers of employees using their personal computer, tablet, or phone for work.",
+            "initialPosition": "intro-scenario1__tooltip1 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "problem_start"
+          },
+          {
+            "htmlId": "scenario1_tooltip2",
+            "businessStatement": "I forget my password frequently because of our IT security policy requirements. Strict IT security policies will often involve sacrificing usability by forcing users to create complex passwords or implementing a complex and expensive two factor validation infrastructure.",
+            "initialPosition": "intro-scenario1__tooltip2 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario1_tooltip3",
+            "businessStatement": "We use so many different applications for work, it is difficult to keep track of what I do and do not have access to. It is becoming increasingly difficult to provide employees seamless access to all the cloud based applications that our business has signed up to.",
+            "initialPosition": "intro-scenario1__tooltip3 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario1_tooltip4",
+            "businessStatement": "I have to keep track of so many username and passwords for different applications, so I write them all down. The need to provide consistent and secure access to mobile applications on different platforms is a challenge many IT departments are not currently equipped to handle.",
+            "initialPosition": "intro-scenario1__tooltip4 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "problem"
+          },
+          {
+            "htmlId": "scenario1_tooltip5",
+            "businessStatement": "Computers, phones, and tablets of all types can be consistently secured so that employees can work anywhere, anytime and with any device.",
+            "initialPosition": "intro-scenario1__tooltip5 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution_start"
+          },
+          {
+            "htmlId": "scenario1_tooltip6",
+            "businessStatement": "Two factor validation adds an additional layer of protection to your applications and reduces the risks of unauthorized access to your data due to compromised passwords.",
+            "initialPosition": "intro-scenario1__tooltip6 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "top-left",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario1_tooltip7",
+            "businessStatement": "Access to applications can be easily provided to all types of work or personal mobile devices, and reduces data leaks by keeping your data inside work applications away from the user's personal applications.",
+            "initialPosition": "intro-scenario1__tooltip7 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-right",
+            "type": "solution"
+          },
+          {
+            "htmlId": "scenario1_tooltip8",
+            "businessStatement": "Employees use one credential to easily access all their work resources, improving user experience and eliminating the need to store passwords in insecure ways.",
+            "initialPosition": "intro-scenario1__tooltip8 scenario-tooltip--anchor",
+            "style": "scenario--tooltip__pin text--white glyphicon glyphicon-pushpin",
+            "position": "bottom-left",
+            "type": "solution"
+          }
+        ]
+      }
+    }
+
+  ],
+  "itPro": {
+    "description": "Follow the steps below to see how to implement Enterprise Mobility Introduction for your company. The PDFs in each step contain detailed walkthroughs, including screenshots, of how to complete the step.",
+    "itProSteps": [
+      {
+        "id": "1",
+        "title": "Activate the Azure AD Tenant",
+        "description": "First, well need to activate the Azure AD Tenant, and integrate our on-premises identities.",
+        "pdfLinks": [
+          {
+            "url": "lib/blobStorage/Intro/ItPro/Intro_Activating_AAD_Tenant.pdf",
+            "linkText": ""
+          }
+
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Assign an EMS license",
+        "description": "Now we just need to assign an EMS License via the Office 365 Portal.",
+        "pdfLinks": [
+          {
+            "url": "lib/blobStorage/Intro/ItPro/Intro_Assigning_EMS_Licenses.pdf",
+            "linkText": ""
+          }
+        ]
+      }
+    ]
+  }
+}

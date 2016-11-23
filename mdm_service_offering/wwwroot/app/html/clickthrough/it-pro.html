@@ -1,0 +1,26 @@
+<div id="non-mobile-content">
+    <div class="it-pro-header affix" style="width:100%; z-index:1;">
+        <div class="text--xl text--semilight it-pro-header__title container">{{title}}: Setup Guide</div>
+        <div class="text--sm it-pro-header__description">
+            <div class="container">{{description}}</div>
+        </div>
+    </div>
+
+    <it-pro-body></it-pro-body>
+
+    <div class="col-xs-12 bottom-bar">
+        <span class="text--sm">
+            <a [routerLink]="['/Intro', {id:clickthroughId}]" class="bottom-bar__link bottom-bar__link--blue text--white text--semilight">
+                <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                View Introduction
+            </a>
+        </span>
+    </div>
+</div>
+
+
+
+<!-- Screen is too small message -->
+<div id="small-screen-message" class="text--lg text-center text--semilight">
+    Sorry, this content is not available on screens smaller than landscape tablets.
+</div>

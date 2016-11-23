@@ -1,0 +1,14 @@
+{
+  "clickthroughs": [
+    
+    {
+      "id": "1",
+      "title": "sso",
+      "longTitle": "Single Sign-on",
+      "description": "Enterprise quality, Single Sign-On is provided by Microsoft's Azure Active Directory and provides a business with identity and access management to virtually any cloud-based app, proprietary app, or system. It delivers simplified user authentication by allowing users to sign in once, connect to many experiences, and self-service their passwords. This presentation will discuss the common scenarios a user and business will solve with Single Sign-On.",
+      "image": "/lib/img/clickthrough/SSO/cspems_website_clickthru_demo_imgs_cspems_website_clickthru_sso_1140x641.png#",
+      "file": "sso-clickthroughs.json"
+    }
+
+  ]
+}
