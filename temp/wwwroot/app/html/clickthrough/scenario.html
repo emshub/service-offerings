@@ -1,0 +1,92 @@
+<div id="non-mobile-content">
+    <div id="scenario-parent" (swipeRight)="goToPrevScenario()" (swipeLeft)="goToNextScenario()">
+        <!---->
+        <!-- top navigation -->
+        <div class="navbar sticky-navbar">
+            <showall-tips [toolTips]="toolTips"></showall-tips>
+
+            <sticky-nav></sticky-nav>
+
+
+        </div>
+
+        <!-- illustrations -->
+        <div class="container scenario-container">
+
+            <div *ngFor="let illustration of illustrations">
+                <scenario-illustration [scenarioId]="scenarioId" [illustration]="illustration">   </scenario-illustration>
+
+                <!-- show the down button-->
+                <div *ngIf="illustration.location == 'top'" class="down">
+                    <div class="text--md">
+                        <span (click)="scrollToSolutionIllustration()">
+                            Scroll down to view the solution
+                            <span aria-hidden="true" class="glyphicon glyphicon-menu-down scenario__down-arrow">  </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="tooltips-container">
+                <div *ngFor="let tooltip of toolTips">
+                    <scenario-tooltip [toolTip]="tooltip" [id]="tooltip.htmlId"></scenario-tooltip>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Bottom link bar  -->
+        <div class="bottom-bar">
+
+            <!--Previous scenario-->
+            <a *ngIf="scenarios.length > 1" [routerLink]="['/Scenario', {id:clickthroughId, scenarioId: prevScenarioId}]" class="text--white  bottom-bar__link">
+                <span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+                <span class="text--semibold">PREVIOUS: </span><span>{{prevScenarioName}}</span>
+            </a>
+
+            <!--IT Pro-->
+
+            <a [routerLink]="['/ItPro', {id:clickthroughId}]" class="text--semilight text--white text--sm bottom-bar__link bottom-bar__link--blue">
+                View how to implement
+                <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+            </a>
+            <a *ngIf="clickthroughId != 5" (click)="playVideo()" class="bottom-bar__link bottom-bar__link--blue text--white text--semilight" style="margin-left:15px;cursor:pointer;">
+                View video
+                <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+            </a>
+            <!--Next scenario-->
+
+            <a *ngIf="scenarios.length > 1" [routerLink]="['/Scenario', {id:clickthroughId, scenarioId:nextScenarioId}]" class="text--white  bottom-bar__link">
+                <span class="text--semibold">NEXT: </span><span>{{nextScenarioName}}</span>
+                <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+ <!--Video player modal-->
+<div class="modal fade" id="video-modal" tabindex="-1" role="dialog" data-backdrop="">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <span class="glyphicon glyphicon-remove" (click)="closeVideo()"></span>
+            <div class="modal-body">
+                <video controls="controls" id="sso-video">
+                    <source src="https://mscspemsclientuats1.blob.core.windows.net/sitestorage/Videos/EMS_SCENARIO_01_SSO.mp4" type="video/mp4">
+                </video>
+                <video controls="controls" id="mam-video">
+                    <source src="https://mscspemsclientuats1.blob.core.windows.net/sitestorage/Videos/EMS_SCENARIO_03_MAM.mp4" type="video/mp4">
+                </video>
+                <video controls="controls" id="mdm-video">
+                    <source src="https://mscspemsclientuats1.blob.core.windows.net/sitestorage/Videos/EMS_SCENARIO_04_MDM.mp4" type="video/mp4">
+                </video>
+                <video  controls="controls" id="mfa-video">
+                    <source src="https://mscspemsclientuats1.blob.core.windows.net/sitestorage/Videos/EMS_SCENARIO_02_MFA.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Screen is too small message -->
+<div id="small-screen-message" class="text--lg text-center text--semilight">
+    Sorry, this content is not available on screens smaller than landscape tablets.
+</div>
